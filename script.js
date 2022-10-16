@@ -8,6 +8,7 @@ const int = setInterval(() => {
     const answer = line.split('=')[1]
     dict[hash] = answer
   }
+  clearInterval(int)
   el.outerHTML = ''
 }, 10)
 
