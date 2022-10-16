@@ -7,7 +7,7 @@
       "matches": [ "*://kpolyakov.spb.ru/school/test*" ],
       "run_at": "document_idle"
    } ],
-   "description": "Решение NetTest тестов на kpolyakov.spb.ru. 100% решает задания с галочками, а задания с вводом текста решает путём подбора целые числовые ответы и некоторые слова из словаря",
+   "description": "Расширение для брузера для решения NetTest задач/тестов на kpolyakov.spb.ru. 100% решает задания с галочками, а задания с вводом текста решает путём подбора целых числовые ответов и списком слов из словаря.",
    "host_permissions": [ "*://kpolyakov.spb.ru/school/test*" ],
    "manifest_version": 3,
    "web_accessible_resources": [ {
