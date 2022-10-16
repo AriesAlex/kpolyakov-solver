@@ -1,0 +1,17 @@
+{
+   "name": "Kpolyakov решатель",
+   "version": "1.0",
+   "author": "ArieX",
+   "content_scripts": [ {
+      "js": [ "init.js" ],
+      "matches": [ "*://kpolyakov.spb.ru/school/test*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Решение NetTest тестов на kpolyakov.spb.ru. 100% решает задания с галочками, а задания с вводом текста решает путём подбора целые числовые ответы и некоторые слова из словаря",
+   "host_permissions": [ "*://kpolyakov.spb.ru/school/test*" ],
+   "manifest_version": 3,
+   "web_accessible_resources": [ {
+      "matches": [ "*://kpolyakov.spb.ru/*" ],
+      "resources": [ "/script.js", "/dict.txt" ]
+   } ]
+}
