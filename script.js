@@ -1,4 +1,4 @@
-let dict = {}
+const dict = {}
 const int = setInterval(() => {
   const el = document.getElementById('dict')
   if (!el) return
